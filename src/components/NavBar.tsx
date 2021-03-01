@@ -17,7 +17,7 @@ export const NavBar: React.FC<NavBarProps> = ({}) => {
             body = (
                 <>
                     <NextLink href="/login">
-                        <Link color='white' mr={2}> login</Link>
+                        <Link color='white' mr={2}> Sign In today!</Link>
                     </NextLink>
                     <NextLink href="/register">
                         <Link color='white' mr={2}> register</Link>
